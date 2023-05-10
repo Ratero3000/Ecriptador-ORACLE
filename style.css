@@ -1,0 +1,113 @@
+*, *::after, *::before{
+    box-sizing: border box;
+    }
+    
+html, body {
+     height: 100%;
+    margin: 0;
+     padding: 0; 
+}
+
+.contenedor{
+    background-image: url(background.jpg);
+    background-size: contain;
+    display: flex;
+    min-height: 100%;
+}
+
+.div-izquierdo{
+    margin: 5px;
+  width: 60%;
+}
+
+.div-logo{
+height: 10%;
+}
+
+.div-logo img{
+    position:absolute;
+    left: 30px;
+    top: 15px;
+}
+
+#texto{
+    height: 70%;
+    width:70%;
+    position: relative;
+    left: 13%;
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    font-size: 32px;
+    outline: none;  
+    color: whitesmoke;
+    
+}
+
+
+.div-botones{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3px;
+}
+
+button{
+    padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  background: rgb(1, 66, 119);
+  box-shadow: 0 0 25px rgb(1, 69, 124);
+}
+
+button:hover{
+    box-shadow: 0 0 5px rgb(1, 115, 207),
+              0 0 25px rgb(1, 115, 207),
+              0 0 50px rgb(1, 115, 207),
+              0 0 100px rgb(1, 115, 207);
+}
+
+.div-derecho{
+    width: 40%;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#resultado{
+    color: #ea7317;
+    height: 500px;
+    width: 70%;
+    border-radius: 15px;
+    font-size: 23px;
+    background: #00040f;
+    padding: 20px;
+border: none;
+backdrop-filter:blur(40%);
+}
+
+#muneco{
+    position: absolute;
+    right: 180px;
+    max-width: 100%;
+    width: 200px;
+    
+}
+
+.ocultar{
+    display: none;
+}
+
+#copiar{
+    position: absolute;
+    bottom: 120px;
+}
