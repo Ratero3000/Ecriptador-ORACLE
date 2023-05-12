@@ -1,6 +1,6 @@
 var btnEncriptar = document.querySelector("#encriptar");
 var btnDesencriptar = document.querySelector("#desencriptar");
-var Img = document.querySelector("#muneco");
+var Img = document.querySelector(".noResultado");
 var resultado = document.querySelector("#resultado");
 const btnCopiar = document.querySelector("#copiar");
 
